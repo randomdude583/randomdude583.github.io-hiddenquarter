@@ -3,8 +3,8 @@ title: Hidden Quarter
 subtitle: 
 email: info@hiddenquarter.com
 description: Apps made by us, and for you
-baseurl: /hiddenquarter
-url: https://hiddenquarter.com # the base hostname & protocol for your site
+baseurl: /
+url: http://randomdude583.github.io # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville

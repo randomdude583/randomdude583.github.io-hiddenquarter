@@ -4,7 +4,7 @@ subtitle:
 email: info@hiddenquarter.com
 description: Apps made by us, and for you
 baseurl: /hiddenquarter
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+url: "https://hiddenquarter.com" # the base hostname & protocol for your site
 author:
 street_address: 1234 Somewhere Road
 city: Nashville

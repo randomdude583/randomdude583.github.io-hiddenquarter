@@ -29,5 +29,8 @@ pinterest_url:
 slack_url:
 twitter_url: 
 
+# Google analytics
+google_analytics: UA-88755288-1
+
 # Build settings
 markdown: kramdown

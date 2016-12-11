@@ -30,7 +30,7 @@ slack_url:
 twitter_url: 
 
 # Google analytics
-google_analytics: UA-88755288-1
+google_analytics: UA-88119269-1
 
 # Build settings
 markdown: kramdown

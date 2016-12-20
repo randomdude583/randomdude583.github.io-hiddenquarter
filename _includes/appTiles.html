@@ -2,11 +2,11 @@
 	{% for page in site.apppages limit:site.app-tiles-count %}
         <article>
                 <span class="image">
-                        <img src="{{ page.image }}" alt="" />
+                        <img src="{{ apppage.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ page.url | relative_url }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
+                        <h3><a href="{{ apppage.url | relative_url }}" class="link">{{ apppage.title }}</a></h3>
+                        <p>{{ apppage.description }}</p>
                 </header>
         </article>
 	{% endfor %}

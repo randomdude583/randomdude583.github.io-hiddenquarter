@@ -19,6 +19,9 @@ nav-menu: true
 <!-- Content -->
 <h2 id="content">Sample Content</h2>
 <p>Fill with intro to what we are.</p>
+
+{% include tiles.html %}
+
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>

@@ -20,7 +20,7 @@ nav-menu: true
 <h2 id="content">Sample Content</h2>
 <p>Fill with intro to what we are.</p>
 
-{% include tiles.html %}
+{% include appTiles.html %}
 
 <div class="row">
 	<div class="6u 12u$(small)">

@@ -1,28 +1,13 @@
 <section id="one" class="tiles">
-	{% for post in site.posts limit:site.tiles-count %}
-	{% if site.tiles-source == 'posts' %}
+	{% for appPage in site.appPages limit:site.tiles-count %}
         <article>
                 <span class="image">
-                        <img src="{{ post.image }}" alt="" />
+                        <img src="{{ appPage.image }}" alt="" />
                 </span>
                 <header class="major">
-                        <h3><a href="{{ post.url | relative_url }}" class="link">{{ post.title }}</a></h3>
-                        <p>{{ post.description }}</p>
+                        <h3><a href="{{ appPage.url | absolute_url }}" class="link">{{ appPage.title }}</a></h3>
+                        <p>{{ appPage.description }}</p>
                 </header>
         </article>
-	{% endif %}
-	{% endfor %}
-	{% for page in site.pages limit:site.tiles-count %}
-	{% if site.tiles-source == 'pages' %}
-        <article>
-                <span class="image">
-                        <img src="{{ page.image }}" alt="" />
-                </span>
-                <header class="major">
-                        <h3><a href="{{ page.url | absolute_url }}" class="link">{{ page.title }}</a></h3>
-                        <p>{{ page.description }}</p>
-                </header>
-        </article>
-	{% endif %}
 	{% endfor %}
 </section>

@@ -30,6 +30,5 @@ nav-menu: true
 	</div>
 </div>
 
-<hr class="major" />
 
 

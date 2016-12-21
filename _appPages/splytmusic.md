@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: appPage
 title: SplytMusic
 image: assets/images/pic11.jpg
 nav-menu: true

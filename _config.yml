@@ -14,7 +14,8 @@ country:
 phone: 
 
 collections:
-  - appPages
+  appPages:
+    output: true
 
 # Homepage tiles
 tiles-source: pages # accepts "posts" or "pages"

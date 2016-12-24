@@ -2,7 +2,7 @@
 layout: apps
 title: Apps
 description: 
-image: assets/images/java capture.jpg
+image: assets/images/pic12.jpg
 nav-menu: true
 ---
 

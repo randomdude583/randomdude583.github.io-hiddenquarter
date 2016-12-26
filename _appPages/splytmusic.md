@@ -20,7 +20,7 @@ nav-menu: true
 <p>Splyt Music allows two users to share a device, but still listen to their own music, at the same time. </p>
 <div class="row">
 	<div class="6u 12u$(small)">
-		<h3>Sem turpis amet semper</h3>
+		<h3>How it works</h3>
 		<p>Splyt Music allows each user to choose what songs they want to listen to, and add them to their own playlist. Splyt will play you the music you want, while simultaniosly playing the other person their own music. Users can even recommend songs to the other person by swiping songs into their playlist.</p>
 	</div>
 	<div class="6u$ 12u$(small)">

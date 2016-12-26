@@ -16,12 +16,12 @@ nav-menu: true
 		</header>
 
 <!-- Content -->
-<h2 id="content">Sample Content</h2>
-<p>Fill with intro to what we are.</p>
+<h2 id="content">Double the music, Double the fun</h2>
+<p>Splyt Music allows two users to share a device, but still listen to their own music, at the same time. </p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
-		<p>Nunc lacinia ante nunc ac lobortis. Interdum adipiscing gravida odio porttitor sem non mi integer non faucibus ornare mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante lacinia. Sapien a lorem in integer ornare praesent commodo adipiscing arcu in massa commodo lorem accumsan at odio massa ac ac. Semper adipiscing varius montes viverra nibh in adipiscing blandit tempus accumsan.</p>
+		<p>Splyt Music allows each user to choose what songs they want to listen to, and add them to their own playlist. Splyt will play you the music you want, while simultaniosly playing the other person their own music. Users can even recommend songs to the other person by swiping songs into their playlist.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
 		<h3>Magna odio tempus commodo</h3>

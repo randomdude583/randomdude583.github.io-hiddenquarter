@@ -24,7 +24,7 @@ nav-menu: true
 		<p>Splyt Music allows each user to choose what songs they want to listen to, and add them to their own playlist. Splyt will play you the music you want, while simultaniosly playing the other person their own music. Users can even recommend songs to the other person by swiping songs into their playlist.</p>
 	</div>
 	<div class="6u$ 12u$(small)">
-		{% include youtubePlayer.html id= nkw2_cCWooc %}
+		{% include youtubePlayer.html id=nkw2_cCWooc %}
 	</div>
 	<!-- Break -->
 	<div class="4u 12u$(medium)">

@@ -41,4 +41,6 @@ nav-menu: true
 	</div>
 </div>
 
+{% include mailChimpForm.html %}
+
 <hr class="major" />

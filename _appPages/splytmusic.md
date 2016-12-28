@@ -43,4 +43,20 @@ nav-menu: true
 
 {% include mailChimpForm.html %}
 
+<section id="download" class="download bg-primary text-center">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-8 col-md-offset-2">
+                    <h3 class="section-heading">Share the music! Share the love!</h3>
+                    <p>Beta testing for our app will be available for iOS! Please like us on facebook and send us tweets. Also, don't forget to sign up as a beta tester!</p>
+                        <h2>Stop taking turns.</h2>
+                    
+  			{% include mailChimpForm.html %}
+  
+  			<h2>Start sharing!</h2>
+                </div>
+            </div>
+        </div>
+    </section>
+
 <hr class="major" />

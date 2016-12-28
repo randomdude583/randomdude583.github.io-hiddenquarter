@@ -41,8 +41,6 @@ nav-menu: true
 	</div>
 </div>
 
-{% include mailChimpForm.html %}
-
 <section id="download" class="download bg-primary text-center">
         <div class="container">
             <div class="row">

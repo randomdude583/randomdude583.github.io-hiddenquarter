@@ -57,4 +57,4 @@ nav-menu: true
         </div>
     </section>
 
-<hr class="major" />
+

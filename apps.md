@@ -6,8 +6,8 @@ image: assets/images/pic12.jpg
 nav-menu: true
 ---
 
-<!-- Main 
-<div id="main" class="alt">-->
+<!-- Main -->
+<div id="main" class="alt">
 
 <!-- One -->
 <section id="one">

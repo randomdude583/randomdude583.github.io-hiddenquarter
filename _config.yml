@@ -20,7 +20,7 @@ collections:
     output: true
 
 # Homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
+tiles-source: posts # accepts "posts" or "pages"
 tiles-count: 2
 
 # Apps tiles

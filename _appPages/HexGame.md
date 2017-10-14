@@ -28,7 +28,7 @@ nav-menu: true
 	
 	
 	
-</div>
+
 
 <section id="download" class="download bg-primary text-center">
         <div class="container">

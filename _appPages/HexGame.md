@@ -36,12 +36,10 @@ nav-menu: true
                 <div class="col-md-8 col-md-offset-2">
                     <h3 class="section-heading">Hex Game will hopefully launch within the next year.</h3>
                     <p></p>
-                        <h2>Beta starts soon!</h2>
-                    
-  			
-  
-  			
+                        <h2>			Beta starts soon!</h2>
+			</br>
                 </div>
+		<h2> A Pre-Alpha release is published here, Very little works as of now. </h2>
             </div>
         </div>
     </section>

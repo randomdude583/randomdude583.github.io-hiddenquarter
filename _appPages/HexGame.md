@@ -40,7 +40,7 @@ nav-menu: true
 			<p></p>
 			<h2> A Pre-Alpha release is published here, Very little works as of now. </h2>
 			<p></p>
-			<h3> Test it out <a href="https://randomdude583.github.io/HexGame/">Here</a>! </h3>
+			<h3> Test it out <u><a href="https://randomdude583.github.io/HexGame/">Here</a></u>! </h3>
 		</div>
             </div>
         </div>

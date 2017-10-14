@@ -40,7 +40,7 @@ nav-menu: true
                     
   			
   
-  			<h2>Start sharing!</h2>
+  			
                 </div>
             </div>
         </div>

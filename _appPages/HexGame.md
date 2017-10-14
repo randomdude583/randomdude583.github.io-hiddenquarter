@@ -37,10 +37,11 @@ nav-menu: true
                     <h3 class="section-heading">Hex Game will hopefully launch within the next year.</h3>
                     <p></p>
                         <h2>			Beta starts soon!</h2>
-                </div>
-		<h2> A Pre-Alpha release is published here, Very little works as of now. </h2>
-		    <p></p>
-		    <h3> Test it out <a href="https://randomdude583.github.io/HexGame/">Here</a>! </h3>
+			<p></p>
+			<h2> A Pre-Alpha release is published here, Very little works as of now. </h2>
+			<p></p>
+			<h3> Test it out <a href="https://randomdude583.github.io/HexGame/">Here</a>! </h3>
+		</div>
             </div>
         </div>
     </section>

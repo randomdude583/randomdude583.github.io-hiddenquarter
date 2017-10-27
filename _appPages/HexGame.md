@@ -12,7 +12,7 @@ nav-menu: true
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>Hex Game</h1>
+			<h1>Privacy Policy</h1>
 		</header>
 
 <!-- Content -->
@@ -30,18 +30,4 @@ nav-menu: true
 	
 
 
-<section id="download" class="download bg-primary text-center">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-8 col-md-offset-2">
-                    <h3 class="section-heading">Hex Game will hopefully launch within the next year.</h3>
-                    <p></p>
-                        <h2>			Beta starts soon!</h2>
-			<p></p>
-			<h2> A Pre-Alpha release is published here, Very little works as of now. </h2>
-			<p></p>
-			<h3> Test it out <u><a href="https://randomdude583.github.io/HexGame/">Here</a></u>! </h3>
-		</div>
-            </div>
-        </div>
-    </section>
+

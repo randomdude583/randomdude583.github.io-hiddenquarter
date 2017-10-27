@@ -17,7 +17,7 @@ nav-menu: false
 
 <!-- Content -->
 <h2 id="content">Hidden Quarters Privacy Policy</h2>
-<p>The Hex Game is a game developed by Purple Squirrel Games, and is played as a board game. We are in the process of creating a web based version of the game for use in browsers and on mobile. </p>
+<p>Hidden Quarter is owned and operated by Alex Collette, a Computer Science student at Boise State University. Walkie Talkie Transfer needs access to the microphone in order to record incoming transfers over two way radios so that it can decode it and display the message. Information collected through the app is stored on the device and is not shared with third parties. Any changes to the privacy policy will be pushed out by email to all users of our apps. </p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>How it works</h3>

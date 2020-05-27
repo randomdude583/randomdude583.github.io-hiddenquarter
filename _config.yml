@@ -1,45 +1,41 @@
-# Site settings
+# site settings
 title: Hidden Quarter
 subtitle: 
 email: info@hiddenquarter.com
-description: Apps made by us, for you.
-baseurl: /hiddenquarter
-url: //randomdude583.github.io # the base hostname & protocol for your site
+description: Custom Solutions
+baseurl: #/hiddenquarter # the subpath of your site, e.g. /blog
+url: //hiddenquarter.com # the base hostname & protocol for your site
 author:
 street_address: 
-city: 
-state: 
+city: Boise
+state: Idaho
 zip_code: 
-country: 
-phone: 
+country: United States of America
+phone: (716) 555-5555
 
-collections:
-  appPages:
-    output: true
-  404Page:
-    output: true
-
-# Homepage tiles
+# homepage tiles
 tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 2
+tiles-count: 6
 
-# Apps tiles
-app-tiles-count: 2
-
-# Social settings
+# social settings
 500px_url:
-facebook_url: https://www.facebook.com/SplytMusic.co/ 
-github_url:
+facebook_url:
+github_url: https://github.com/randomdude583
 gitlab_url: 
 googleplus_url: 
 instagram_url: 
-linkedin_url: 
+linkedin_url: https://www.linkedin.com/in/alex-collette-591714146/
 pinterest_url:
 slack_url:
-twitter_url: https://twitter.com/splytmusic_co?lang=en
+twitter_url: 
+pubdev_url: https://pub.dev/publishers/hiddenquarter.com/packages
 
-# Google analytics
-google_analytics: UA-88119269-1
-
-# Build settings
+# build settings
 markdown: kramdown
+
+sass:
+  style: compressed
+
+
+# Google services
+google_analytics: UA-167823832-1

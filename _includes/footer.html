@@ -1,8 +1,7 @@
-
 <br>
 <h2 style="text-align: center;">Contact us!</h2>
 <hr class="major" />
-	
+
 <!-- Contact -->
 <section id="contact">
 	<div class="inner">
@@ -36,18 +35,16 @@
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>{{ site.phone }}</span>
+					<span class="icon alt fa-github"></span>
+					<h3>GitHub</h3>
+					<a href={{site.github_url}}>{{"Randomdude583"}}</a>
 				</div>
 			</section>
 			<section>
 				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>{{ site.street_address }}<br />
-					{{ site.city }}, {{ site.state }} {{ site.zip_code }}<br />
-					{{ site.country }}</span>
+					<span class="icon alt fa-funnel-dollar"></span>
+					<h3>Pub.dev</h3>
+					<a href={{site.pubdev_url}}>{{"pub.dev"}}</a>
 				</div>
 			</section>
 		</section>
@@ -88,12 +85,16 @@
 				{% if site.linkedin_url %}
 				<li><a href="{{ site.linkedin_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">LinkedIn</span></a></li>
 				{% endif %}
+				{% if site.pubdev_url %}
+				<li><a href="{{ site.pubdev_url }}" class="icon alt fa-linkedin" target="_blank"><span class="label">Pub.dev</span></a></li>
+				{% endif %}
+
 			</ul>
 			<ul class="copyright">
 				<li>&copy; {{ site.title }} {{ site.subtitle }}</li>
 				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
 				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-				
+
 			</ul>
 		</div>
 	</footer>
@@ -101,10 +102,10 @@
 </div>
 
 <!-- Scripts -->
-	<script src="{{ "/assets/js/jquery.min.js" | absolute_url }}"></script>
-	<script src="{{ "/assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
-	<script src="{{ "/assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
-	<script src="{{ "/assets/js/skel.min.js" | absolute_url }}"></script>
-	<script src="{{ "/assets/js/util.js" | absolute_url }}"></script>
-	<!--[if lte IE 8]><script src="{{ "/assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
-	<script src="{{ "/assets/js/main.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrolly.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/jquery.scrollex.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/skel.min.js" | absolute_url }}"></script>
+	<script src="{{ "assets/js/util.js" | absolute_url }}"></script>
+	<!--[if lte IE 8]><script src="{{ "assets/js/ie/respond.min.js" | absolute_url }}"></script><![endif]-->
+	<script src="{{ "assets/js/main.js" | absolute_url }}"></script>

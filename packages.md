@@ -1,7 +1,7 @@
 ---
 layout: post
-title: Apps
-description: Lorem ipsum dolor est
+title: Packages
+description:
 image: assets/images/pic11.jpg
 nav-menu: true
 ---

@@ -1,82 +1,24 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: page
+title: Apps
+image: assets/images/oughtabeeMockup.jpg
+tiles: true
+nav-menu: true
+---
 
-<head>
-	<title>Hidden Quarter</title>
-	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-	<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/html5shiv.js"></script><![endif]-->
-	<link rel="stylesheet" href="http://localhost:4000/assets/css/main.css" />
-	<!--[if lte IE 9]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie9.css" /><![endif]-->
-	<!--[if lte IE 8]><link rel="stylesheet" href="http://localhost:4000/assets/css/ie8.css" /><![endif]-->
-</head>
-
-
-<body>
-
-    <!-- Wrapper -->
-<div id="wrapper">
-
-<!-- Header -->
-<header id="header">
-	<a href="http://localhost:4000/" class="logo"><strong>Hidden Quarter</strong> <span></span></a>
-	<nav>
-		<a href="#menu">Menu</a>
-	</nav>
-</header>
-
-<!-- Menu -->
-<nav id="menu">
-	<ul class="links">
-        
-		    
-		
-		    
-		
-		    
-		        <li><a href="http://localhost:4000/">Home</a></li>
-	    	
-		
-		    
-		
-		
-		    
-		        <li><a href="http://localhost:4000/About.html">About</a></li>
-		    
-		
-		    
-		        <li><a href="http://localhost:4000/generic.html">Apps</a></li>
-		    
-		
-		    
-		
-		    
-		        <li><a href="http://localhost:4000/landing.html">Landing</a></li>
-		    
-		
-	</ul>
-	<ul class="actions vertical">
-		<li><a href="#" class="button special fit">Get Started</a></li>
-		<li><a href="#" class="button fit">Log In</a></li>
-	</ul>
-</nav> <!-- Main -->
+<!-- Main -->
 <div id="main" class="alt">
 
 <!-- One -->
 <section id="one">
 	<div class="inner">
 		<header class="major">
-			<h1>About</h1>
+			<h1>Elements</h1>
 		</header>
 
 <!-- Content -->
 <h2 id="content">Sample Content</h2>
-<p>Fill with intro to what we are.</p>
+<p>Praesent ac adipiscing ullamcorper semper ut amet ac risus. Lorem sapien ut odio odio nunc. Ac adipiscing nibh porttitor erat risus justo adipiscing adipiscing amet placerat accumsan. Vis. Faucibus odio magna tempus adipiscing a non. In mi primis arcu ut non accumsan vivamus ac blandit adipiscing adipiscing arcu metus praesent turpis eu ac lacinia nunc ac commodo gravida adipiscing eget accumsan ac nunc adipiscing adipiscing.</p>
 <div class="row">
 	<div class="6u 12u$(small)">
 		<h3>Sem turpis amet semper</h3>
@@ -103,8 +45,8 @@
 
 <hr class="major" />
 
-<!-- About -->
-<h2 id="About">About</h2>
+<!-- Elements -->
+<h2 id="elements">Elements</h2>
 <div class="row 200%">
 	<div class="6u 12u$(medium)">
 
@@ -383,24 +325,24 @@ Finally, this is a <a href="#">link</a>.</p>
 		</div>
 		<!-- Break -->
 		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-low" name="demo-priority" checked="" />
+			<input type="radio" id="demo-priority-low" name="demo-priority" checked>
 			<label for="demo-priority-low">Low</label>
 		</div>
 		<div class="4u 12u$(small)">
-			<input type="radio" id="demo-priority-normal" name="demo-priority" />
+			<input type="radio" id="demo-priority-normal" name="demo-priority">
 			<label for="demo-priority-normal">Normal</label>
 		</div>
 		<div class="4u$ 12u$(small)">
-			<input type="radio" id="demo-priority-high" name="demo-priority" />
+			<input type="radio" id="demo-priority-high" name="demo-priority">
 			<label for="demo-priority-high">High</label>
 		</div>
 		<!-- Break -->
 		<div class="6u 12u$(small)">
-			<input type="checkbox" id="demo-copy" name="demo-copy" />
+			<input type="checkbox" id="demo-copy" name="demo-copy">
 			<label for="demo-copy">Email me a copy</label>
 		</div>
 		<div class="6u$ 12u$(small)">
-			<input type="checkbox" id="demo-human" name="demo-human" checked="" />
+			<input type="checkbox" id="demo-human" name="demo-human" checked>
 			<label for="demo-human">I am a human</label>
 		</div>
 		<!-- Break -->
@@ -421,26 +363,26 @@ Finally, this is a <a href="#">link</a>.</p>
 <h3>Image</h3>
 
 <h4>Fit</h4>
-<span class="image fit"><img src="assets/images/pic03.jpg" alt="" /></span>
+<span class="image fit"><img src="{% link assets/images/pic03.jpg %}" alt="" /></span>
 <div class="box alt">
 	<div class="row 50% uniform">
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
 		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
 		<!-- Break -->
-		<div class="4u"><span class="image fit"><img src="assets/images/pic09.jpg" alt="" /></span></div>
-		<div class="4u"><span class="image fit"><img src="assets/images/pic10.jpg" alt="" /></span></div>
-		<div class="4u$"><span class="image fit"><img src="assets/images/pic08.jpg" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span></div>
+		<div class="4u"><span class="image fit"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span></div>
+		<div class="4u$"><span class="image fit"><img src="{% link assets/images/pic08.jpg %}" alt="" /></span></div>
 	</div>
 </div>
 
 <h4>Left &amp; Right</h4>
-<p><span class="image left"><img src="assets/images/pic09.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
-<p><span class="image right"><img src="assets/images/pic10.jpg" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+<p><span class="image left"><img src="{% link assets/images/pic09.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
+<p><span class="image right"><img src="{% link assets/images/pic10.jpg %}" alt="" /></span>Lorem ipsum dolor sit accumsan interdum nisi, quis tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget. tempus euismod. Vestibulum ante ipsum primis sagittis eget. tempus euismod. Vestibulum ante ipsum primis in faucibus vestibulum. Blandit adipiscing eu felis iaculis volutpat ac adipiscing accumsan eu faucibus. Integer ac pellentesque praesent tincidunt felis sagittis eget tempus vestibulum ante ipsum primis in faucibus magna blandit adipiscing eu felis iaculis.</p>
 
 <!-- Box -->
 <h3>Box</h3>
@@ -468,93 +410,3 @@ print 'It took ' + i + ' iterations to sort the deck.';
 </section>
 
 </div>
- <!-- Contact -->
-<section id="contact">
-	<div class="inner">
-		<section>
-			<form action="https://formspree.io/info@hiddenquarter.com" method="POST">
-				<div class="field half first">
-					<label for="name">Name</label>
-					<input type="text" name="name" id="name" />
-				</div>
-				<div class="field half">
-					<label for="email">Email</label>
-					<input type="text" name="_replyto" id="email" />
-				</div>
-				<div class="field">
-					<label for="message">Message</label>
-					<textarea name="message" id="message" rows="6"></textarea>
-				</div>
-				<ul class="actions">
-					<li><input type="submit" value="Send Message" class="special" /></li>
-					<li><input type="reset" value="Clear" /></li>
-				</ul>
-			</form>
-		</section>
-		<section class="split">
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-envelope"></span>
-					<h3>Email</h3>
-					<a href="#">info@hiddenquarter.com</a>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-phone"></span>
-					<h3>Phone</h3>
-					<span>(716) 555-5555</span>
-				</div>
-			</section>
-			<section>
-				<div class="contact-method">
-					<span class="icon alt fa-home"></span>
-					<h3>Address</h3>
-					<span>1234 Somewhere Road<br />
-					Nashville, TN 55555<br />
-					United States of America</span>
-				</div>
-			</section>
-		</section>
-	</div>
-</section>
-
-<!-- Footer -->
-	<footer id="footer">
-		<div class="inner">
-			<ul class="icons">
-				
-				
-				
-				
-				
-				
-				
-				
-				
-				
-			</ul>
-			<ul class="copyright">
-				<li>&copy; Hidden Quarter </li>
-				<li>Design: <a href="https://html5up.net" target="_blank">HTML5 UP</a></li>
-				<li>Jekyll integration: <a href="http://andrewbanchi.ch" target="_blank">Andrew Banchich</a></li>
-				
-			</ul>
-		</div>
-	</footer>
-
-</div>
-
-<!-- Scripts -->
-	<script src="http://localhost:4000/assets/js/jquery.min.js"></script>
-	<script src="http://localhost:4000/assets/js/jquery.scrolly.min.js"></script>
-	<script src="http://localhost:4000/assets/js/jquery.scrollex.min.js"></script>
-	<script src="http://localhost:4000/assets/js/skel.min.js"></script>
-	<script src="http://localhost:4000/assets/js/util.js"></script>
-	<!--[if lte IE 8]><script src="http://localhost:4000/assets/js/ie/respond.min.js"></script><![endif]-->
-	<script src="http://localhost:4000/assets/js/main.js"></script>
-
-
-</body>
-
-</html>

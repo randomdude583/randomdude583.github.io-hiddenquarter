@@ -1,33 +1,41 @@
-# Site settings
+# site settings
 title: Hidden Quarter
 subtitle: This site is still under heavy development!
 email: info@hiddenquarter.com
-description: Apps made by us, and for you
-baseurl: /hiddenquarter
-url: "https://andrewbanchich.gitlab.io" # the base hostname & protocol for your site
+description: Custom Solutions
+baseurl: #/hiddenquarter # the subpath of your site, e.g. /blog
+url: //hiddenquarter.com # the base hostname & protocol for your site
 author:
-street_address: 1234 Somewhere Road
-city: Nashville
-state: TN
-zip_code: 55555
+street_address: 
+city: Boise
+state: Idaho
+zip_code: 
 country: United States of America
 phone: (716) 555-5555
 
-# Homepage tiles
-tiles-source: posts # accepts "posts" or "pages"
+# homepage tiles
+tiles-source: pages # accepts "posts" or "pages"
 tiles-count: 6
 
-# Social settings
+# social settings
 500px_url:
-facebook_url: 
-github_url:
+facebook_url:
+github_url: https://github.com/randomdude583
 gitlab_url: 
 googleplus_url: 
 instagram_url: 
-linkedin_url: 
+linkedin_url: https://www.linkedin.com/in/alex-collette-591714146/
 pinterest_url:
 slack_url:
 twitter_url: 
+pubdev_url: https://pub.dev/publishers/hiddenquarter.com/packages
 
-# Build settings
+# build settings
 markdown: kramdown
+
+sass:
+  style: compressed
+
+
+# Google services
+google_analytics: UA-167823832-1

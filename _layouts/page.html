@@ -1,17 +1,20 @@
 <!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
-
-{% include head.html %}
-
+<html lang="en">
+<head>
+	{%- include head.html -%}
+</head>
 <body>
-
-    {% include header.html %} {{ content }} {% include footer.html %}
-
+	<header class="texture-{{ site.texture.style }}">
+		<div class="container">
+			{%- include nav.html -%}
+		</div>
+		{%- include page_header.html -%}	
+	</header>
+	<main>
+		<div class="container">
+			{{ content }}
+		</div>
+	</main>
+	{%- include footer.html -%}
 </body>
-
 </html>

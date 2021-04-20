@@ -1,41 +1,45 @@
-# site settings
-title: Hidden Quarter
-subtitle: This site is still under heavy development!
+title: HiddenQuarter
+author: GitHub User
 email: info@hiddenquarter.com
-description: Custom Solutions
-baseurl: #/hiddenquarter # the subpath of your site, e.g. /blog
-url: //hiddenquarter.com # the base hostname & protocol for your site
-author:
-street_address: 
-city: Boise
-state: Idaho
-zip_code: 
-country: United States of America
-phone: (716) 555-5555
+description: > # this means to ignore newlines until "show_exerpts:"
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+show_excerpts: true # set to true to show excerpts on the homepage
+baseurl:
 
-# homepage tiles
-tiles-source: pages # accepts "posts" or "pages"
-tiles-count: 6
-
-# social settings
-500px_url:
-facebook_url:
-github_url: https://github.com/randomdude583
-gitlab_url: 
-googleplus_url: 
-instagram_url: 
-linkedin_url: https://www.linkedin.com/in/alex-collette-591714146/
-pinterest_url:
-slack_url:
-twitter_url: 
-pubdev_url: https://pub.dev/publishers/hiddenquarter.com/packages
-
-# build settings
-markdown: kramdown
-
+# Minima date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 sass:
-  style: compressed
+  sass_dir: _sass
 
+permalink: /posts/:title/
+texture:
+  title: HiddenQuarter
+  tagline: Developer. Maker
+  date_format: "%b %-d, %Y"
+  style: black
+  showNav: true
+  navigation:
+    - title: Home
+      url: "/"
+  showPicker: false
 
-# Google services
-google_analytics: UA-167823832-1
+  # generate social links in footer
+  social_links:
+    twitter: collette_alex
+    github:  randomdude583
+    linkedIn: in/alex-collette
+ 
+
+# If you want to link only specific pages in your header, uncomment
+# this and add the path to the pages in order as they should show up
+#header_pages:
+# - about.md
+
+# Build settings
+# theme: texture
+
+plugins:
+  - jekyll-seo-tag
+#  - jekyll-feed

@@ -1,55 +1,24 @@
-<!DOCTYPE html>
-<!--
-	Forty by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
-<html>
+---
+layout: page
+---
+{%- if site.posts.size > 0 -%}
+<ul class="posts">
+	{%- for post in site.posts -%}
+	<li>
+		{%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+		<div class="post-meta">
+			<a class="post-link" href="{{ post.url | relative_url }}">
+				<h2 class="post-title">{{ post.title | escape }}</h2>
+			</a>
+			<div class="post-date"><i class="icon-calendar"></i>{{ post.date | date: date_format }}</div>
+		</div>
+		<div class="post">
+			{%- if site.show_excerpts -%}
+			{{ post.excerpt }}
+			{%- endif -%}
+		</div>
+	</li>
+	{%- endfor -%}
+</ul>
+{%- endif -%}
 
-{% include head.html %}
-
-<body>
-
-    {% include header.html %}
-
-    <!-- Banner -->
-    <section id="banner" class="major">
-        <div class="inner">
-            <header class="major">
-                <h1>{{ page.landing-title }}</h1>
-            </header>
-            <div class="content">
-                <p style="text-transform: uppercase;">{{ site.description }}</p>
-                <ul class="actions">
-                    <li><a href="#one" class="button next scrolly">Learn More</a></li>
-                </ul>
-            </div>
-        </div>
-    </section>
-
-    <!-- Main -->
-    <div id="main">
-
-        <!-- One -->
-        {% include tiles.html %}
-
-        <!-- Two -->
-        <section id="two">
-            <div class="inner">
-                <header class="major">
-                    <h2>About</h2>
-                </header>
-                <p>{{ content }}</p>
-                <ul class="actions">
-                    <li><a href="landing.html" class="button next">Learn More</a></li>
-                </ul>
-            </div>
-        </section>
-
-    </div>
-
-    {% include footer.html %}
-
-</body>
-
-</html>

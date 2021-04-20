@@ -24,6 +24,7 @@ texture:
     - title: Home
       url: "/"
   showPicker: false
+  analytics_id: 'UA-167823832-1'
 
   # generate social links in footer
   social_links:
